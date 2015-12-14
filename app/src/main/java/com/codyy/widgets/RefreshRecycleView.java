@@ -41,6 +41,7 @@ public class RefreshRecycleView extends SwipeRefreshLayout implements SwipeRefre
 
     private RecyclerView mRecyclerView;
     private RecyclerView.LayoutManager mLayoutManager;
+    // 这个类在activity中使用的时候，activity需要实现这个接口
     private OnStateChangeLstener mOnStateChangeLstener;
     private Handler mHandler;
     private Context mContext;
